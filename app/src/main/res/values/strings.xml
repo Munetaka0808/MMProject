@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">MishimaCollection</string>
+
+    <string name="diagnosis_question1">Question1</string>
+    <string name="diagnosis_question2">Question2</string>
+    <string name="diagnosis_question3">Question3</string>
 </resources>

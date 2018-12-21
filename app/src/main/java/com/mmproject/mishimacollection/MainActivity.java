@@ -2,9 +2,9 @@ package com.mmproject.mishimacollection;
 
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.os.Bundle;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
@@ -19,8 +19,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         final AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        builder.setTitle("MMProject");
-        builder.setMessage("説明かくとこ");
+        builder.setTitle("デート成功大作戦");
+        builder.setMessage("何といっても大切な見た目！\nあった瞬間から彼をメロメロにするために、\n洋服選びのお手伝いをしちゃいます♡\n今からする質問を答えて、コーディネートを完成させましょう♪");
         builder.setPositiveButton("閉じる", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {

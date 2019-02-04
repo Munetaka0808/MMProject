@@ -25,15 +25,45 @@
         android:layout_marginTop="8dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+<<<<<<< HEAD
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
+=======
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:tabIndicatorColor="?attr/colorPrimary" />
+>>>>>>> 674567f656b419131282b5476a74dd82e81888f2
 
     <android.support.v4.view.ViewPager
         android:id="@+id/diagnosis_view_pager"
         android:layout_width="0dp"
         android:layout_height="0dp"
+<<<<<<< HEAD
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tableLayout" />
+=======
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/decide_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout">
+
+    </android.support.v4.view.ViewPager>
+
+    <Button
+        android:id="@+id/decide_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:text="診断する"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+>>>>>>> 674567f656b419131282b5476a74dd82e81888f2
 
 </android.support.constraint.ConstraintLayout>

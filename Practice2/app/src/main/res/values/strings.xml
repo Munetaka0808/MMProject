@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Practice2</string>
+    <string name="main">第1問</string>
+    <string name="move">次へ</string>
+    <string name="sub">第2問</string>
+    <string name="return_sub">戻る</string>
+    <string name="radioButton1">見た目は「中の中」。髪型は今どき。服装はシンプル。</string>
+    <string name="radioButton2">見た目は「中の上」。後姿がカッコいい。\n服装は人気ブランド。</string>
+    <string name="radioButton3">見た目は「中の下」。賢くて真面目で優しいと評判。</string>
+    <string name="radioButton4">見た目は「上の下」。髪型はジャニーズ系。\n服装は可愛い系。</string>
+    <string name="radioButton5">「どうする？」に「どっちでもいい」と返す。</string>
+    <string name="radioButton6">「どうする？」に「どうしようか？」と返す。</string>
+    <string name="radioButton7">「どうする？」に「こうするから！」と返す。</string>
+    <string name="radioButton8">「どうする？」に「これはどう？」と返す。</string>
+    <string name="radioButton9">普段はクールで、たまに見せる笑顔が素敵すぎる。</string>
+    <string name="radioButton10">優しいのか優しくないのか、テンションが常に分からない。</string>
+    <string name="radioButton11">普段は物静かで影が薄い。人と違う笑いのツボがある。</string>
+    <string name="radioButton12">気取らず爽やかでムードメーカー的存在。</string>
+
+</resources>
